@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viktorina — Vilnius, Lietuva ir Tikėjimas</title>
+  <meta name="description" content="Nemokama viktorina apie Vilnių, Lietuvą ir religiją. Atsakyk į klausimus, rink taškus, dalinkis rezultatais." />
+  <meta name="keywords" content="Viktorina, Vilnius, Lietuva, Dievas, klausimai, žinios, quiz" />
+  <meta name="author" content="Autorius" />
+  <meta property="og:title" content="Viktorina — Vilnius, Lietuva ir Tikėjimas" />
+  <meta property="og:description" content="Nemokama viktorina apie Vilnių, Lietuvą ir religiją. Išbandyk savo žinias!" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1505765056628-6b7e6b5e8f39?auto=format&fit=crop&w=1200&q=80" />
+  <link rel="canonical" href="https://example.com/" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧠 Viktorina</h1>
+<p id="progress">Klausimas 1 iš 2</p>
+<p id="timer">Laikas: 01:00</p>
+<p id="klausimas"></p>
+
+<div id="atsakymai"></div>
+
+<p id="rezultatas" aria-live="polite"></p>
+<p id="taskai" aria-live="polite">Taškai: 0</p>
+
+<button id="nextBtn" onclick="kitas()">Kitas klausimas</button>
+<button id="restartBtn" onclick="restart()" style="display:none">Paleisti iš naujo</button>
+
+<script src="script.js"></script>
+</body>
+</html>
